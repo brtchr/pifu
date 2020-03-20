@@ -692,7 +692,26 @@
 	<!-- role - rolle i member -->
 	<xs:complexType name="role">
 		<xs:sequence>
-			<xs:element name="subrole" type="t_string32" minOccurs="0"/>
+			<xs:element name="subrole" minOccurs="0" maxOccurs="unbounded">
+				<xs:simpleType>
+					<xs:restriction base="t_string32">
+						<xs:enumeration value="kontaktlærer"/>
+						<xs:enumeration value="faglærer"/>
+						<xs:enumeration value="lærerstudent"/>
+						<xs:enumeration value="vikar"/>
+						<xs:enumeration value="rådgiver"/>
+						<xs:enumeration value="kontormedarbeider"/>
+						<xs:enumeration value="skolehelsetjeneste"/>
+						<xs:enumeration value="skolebiblioteksansvarlig"/>
+						<xs:enumeration value="vaktmester"/>
+						<xs:enumeration value="renholdsarbeider"/>
+						<xs:enumeration value="foresattrepresentant"/>
+						<xs:enumeration value="rektor"/>
+						<xs:enumeration value="inspektør"/>
+						<xs:enumeration value="iktansvarlig"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
 			<xs:element name="status">
 				<xs:simpleType>
 					<xs:restriction base="t_integer1">
