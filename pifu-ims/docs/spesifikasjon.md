@@ -261,7 +261,7 @@ P3.13.1.1|pifu_gradelevel|Gjeldende trinn for gruppen|O|n|Skal være utfylt om p
 ##### 2.3.2.1. Vokabularer for utvidelser på basisgruppe og kontaktlærergruppe
 **Nr**|**Navn**|**Verdi**|**Obl**|**Utdypning**|
 :-----|:-------|:--------|:------|:------------|
-P3.13.1.1|pifu_gradelevels|*1*, *2*, *3*, *4*, *5*, *6*, *7*, *8*, *9* eller *10*|V|Tilsvarer trinn i grunnskolen
+P3.13.1.1|pifu_gradelevel|*1*, *2*, *3*, *4*, *5*, *6*, *7*, *8*, *9* eller *10*|V|Tilsvarer trinn i grunnskolen
 |||*11*, *12*, *13* eller *14*|V|Tilsvarer henholdsvis vg1, vg2, vg3 og vg4 (påbygg)
 |||*15*|V|Tilsvarer voksenopplæring
 
@@ -289,7 +289,7 @@ P3.13.2.1|pifu_gradelevel|Gjeldende trinn for gruppen|O|n|Skal være utfylt om p
 P3.13.1.1|pifu_id - type|*grepCode*|O|PSI eller uuid til gruppen fra grep.
 |||*grepCodeShortForm*|V|Kortform eller NVB-kode til gruppen fra grep.
 P3.13.1.3|pifu_scope|*grep - levende læreplaner*|O|Settes når type er grepCode og grepCodeShortForm. 
-P3.13.2.1|pifu_gradelevels|*1*, *2*, *3*, *4*, *5*, *6*, *7*, *8*, *9* eller *10*|V|Tilsvarer trinn i grunnskolen
+P3.13.2.1|pifu_gradelevel|*1*, *2*, *3*, *4*, *5*, *6*, *7*, *8*, *9* eller *10*|V|Tilsvarer trinn i grunnskolen
 |||*11*, *12*, *13* eller *14*|V|Tilsvarer henholdsvis vg1, vg2, vg3 og vg4 (påbygg)
 |||*15*|V|Tilsvarer voksenopplæring
 
